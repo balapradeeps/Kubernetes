@@ -5,3 +5,5 @@ resources:
   - nginx-depl.yaml
   - service.yaml
   - redis-depl.yaml
+commonLabels:
+  company: BeastMine.io

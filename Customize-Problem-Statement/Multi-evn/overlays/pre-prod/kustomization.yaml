@@ -15,5 +15,5 @@ replicas:
 configMapGenerator:
   - name: app-config
     literals:
-      - ENVIRONMENT=production
+      - ENVIRONMENT=pre-production
       - LOG_LEVEL=warn
